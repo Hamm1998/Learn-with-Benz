@@ -1,4 +1,5 @@
-def sayhello():
-    print("hello")
+def sayhello(name):
+    print("Hello "+ name)
 
-sayhello()+"Hamm"
+sayhello("Benz")
+sayhello("Hamm")
